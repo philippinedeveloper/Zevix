@@ -7,6 +7,8 @@ import com.google.appinventor.components.common.ComponentCategory;
 import com.google.appinventor.components.runtime.*;
 import com.google.appinventor.components.runtime.util.MediaUtil;
 import android.graphics.drawable.Drawable;
+import android.graphics.Bitmap;
+import android.view.View;
 import android.widget.ImageView;
 
 @DesignerComponent(
@@ -14,7 +16,7 @@ import android.widget.ImageView;
         description = "Extension made by Bxtdev, Made using the powerful Warlock!, Designed to help Rapu to set images, you can set image on dynamically created components or the components not dynamically created",
         category = ComponentCategory.EXTENSION,
         nonVisible = true,
-        iconName = "")
+        iconName = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAA9UlEQVRYw2NgGAWjgNpAmmEpwzOG/2TCZ0Dd0viNf0O24TD4Bp8VSyk2HgSX4rbgKVUseIrbgv9UgqMWjFowasGoBaMWEAvnMMynpQVnGTgYuBiu0MqCtwwKYPVaDF8ot2AOw1Q0kb8MXnAd8ZRacAYYFCwMe1DEGlH0zKfEAlhQCDLcgovtYGBC0YMtJoi04C+DJ1xGneE9WOwBgzCGLsyYINKCehQ5N4Y/DD8YTLHqiyfHgm1oQcHAkMeQjlPnfFItuM8gRFKTEzUmCFrwncGI5FYtckwQtCCZrIZz/EgoTWne+KV5853mHRCad6FGwSggBwAAd7ZU4N/jaCUAAAAASUVORK5CYII=")
 
 @SimpleObject(external = true)
 //Libraries
