@@ -39,7 +39,7 @@ public class Zevix extends AndroidNonvisibleComponent {
     }
 
     @SimpleFunction(description = "Set an image to an ImageView component.")
-    public void SetImage(AndroidViewComponent imageComponent, String image) {
+    public void SetImage(AndroidViewComponent imageComponent, @Asset String image) {
       View view = imageComponent.getView();
       try {
         // Use MediaUtil to get a Drawable from the image file
