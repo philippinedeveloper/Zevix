@@ -10,7 +10,7 @@ Helper blocks
 
 DX & D8 for dexing
 
-Progaurd for protecting from decompiling & for optimizing/shrinking, obfuscating & preverifier.
+Progaurd for protecting from decompiling, for optimizing/shrinking, obfuscating & preverifier.
 
 Android 34-sdk level
 
