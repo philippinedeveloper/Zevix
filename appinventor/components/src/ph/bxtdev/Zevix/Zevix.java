@@ -7,6 +7,7 @@ import com.google.appinventor.components.common.ComponentCategory;
 import com.google.appinventor.components.runtime.*;
 import com.google.appinventor.components.runtime.util.MediaUtil;
 import android.graphics.drawable.Drawable;
+import android.widget.ImageView;
 
 @DesignerComponent(
         version = 1,
