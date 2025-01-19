@@ -27,8 +27,9 @@ public class Zevix extends AndroidNonvisibleComponent {
     //Activity and Context
     private Context context;
     private Activity activity;
+    private ComponentContainer container;
 
-    public Zevix(ComponentContainer container){
+    public Zevix(){
         super(container.$form());
         this.activity = container.$context();
         this.context = container.$context();
